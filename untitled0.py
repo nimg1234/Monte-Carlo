@@ -67,3 +67,4 @@ while j<len(paths):
 
 plot_paths(paths, starting_price)
 plot_final_dist(final_values)
+README.md
