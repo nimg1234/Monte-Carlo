@@ -39,7 +39,7 @@ def plot_final_dist(x):
 
 timesteps = 30
 starting_price = 600
-volatility = 0.02   #2%=0.02
+volatility = 0.02   
 max_simulations = 5000
 paths=[]
 m=0
@@ -67,4 +67,4 @@ while j<len(paths):
 
 plot_paths(paths, starting_price)
 plot_final_dist(final_values)
-README.md
+
